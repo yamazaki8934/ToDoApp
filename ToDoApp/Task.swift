@@ -18,5 +18,9 @@ class Task {
         self.deadline = deadline
     }
     
-    // 引数のdictionaryからTask
+    // 引数のdictionaryからTaskを生成するイニシャライザ（Userdefaultで保存したdictionaryから生成）
+    init(from dictionary: [String: Any]){
+        self.text = dictionary["text"] as! String
+        self.deadline = dictionary["deadline"] as! Date
+    }
 }
