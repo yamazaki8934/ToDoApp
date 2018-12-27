@@ -14,6 +14,7 @@
 		8E4C6B7A21D2406D00A5EE61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4C6B7821D2406D00A5EE61 /* LaunchScreen.storyboard */; };
 		8E4C6B8621D33B6000A5EE61 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4C6B8521D33B6000A5EE61 /* Task.swift */; };
 		8E4C6B8821D34AE500A5EE61 /* TaskDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4C6B8721D34AE500A5EE61 /* TaskDataSource.swift */; };
+		8E4C6B8C21D3665600A5EE61 /* TaskListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4C6B8B21D3665600A5EE61 /* TaskListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8E4C6B7B21D2406D00A5EE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E4C6B8521D33B6000A5EE61 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		8E4C6B8721D34AE500A5EE61 /* TaskDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDataSource.swift; sourceTree = "<group>"; };
+		8E4C6B8B21D3665600A5EE61 /* TaskListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				8E4C6B7621D2406D00A5EE61 /* Assets.xcassets */,
 				8E4C6B7821D2406D00A5EE61 /* LaunchScreen.storyboard */,
 				8E4C6B7B21D2406D00A5EE61 /* Info.plist */,
+				8E4C6B8B21D3665600A5EE61 /* TaskListCell.swift */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E4C6B7221D2406800A5EE61 /* ViewController.swift in Sources */,
+				8E4C6B8C21D3665600A5EE61 /* TaskListCell.swift in Sources */,
 				8E4C6B7021D2406800A5EE61 /* AppDelegate.swift in Sources */,
 				8E4C6B8621D33B6000A5EE61 /* Task.swift in Sources */,
 				8E4C6B8821D34AE500A5EE61 /* TaskDataSource.swift in Sources */,
